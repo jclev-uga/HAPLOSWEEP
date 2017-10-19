@@ -13,9 +13,12 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:./
 
 Make sure the bamtools libraries libbamtools.so and libbamtools.so.2.4.1 are in the working directory as well.
 
-If the above is true then running the pipeline is simple.
+Binary files are included, but C++ code can be compiled by user if bamtools API is installed.  C++ standard 11 was used.
+.cpp files can be compiled with the following command:
 
+g++ -I ./lib/bamtools-master/include/ -L ./lib/bamtools-master/lib/ -o program program.cpp -lz -lbamtools -std=c++11
 
+If the above is true then running the pipeline (Haplotyper.pl) is simple.
 
                                                                                                                   
 #  PIPELINE PATH:                                                                                                    
