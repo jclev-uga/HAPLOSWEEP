@@ -1,7 +1,7 @@
 
-#HAPLOSWEEP v1.0
-#By Josh Clevenger, PhD
-#Project funded by a USDA-NIFA postdoctoral fellowship grant
+# HAPLOSWEEP v1.0
+# By Josh Clevenger, PhD
+# Project funded by a USDA-NIFA postdoctoral fellowship grant
 
 Haplotype-based genotyping designed for polyploid species
 
