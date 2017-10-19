@@ -39,8 +39,7 @@ If the above is true then running the pipeline is simple.
                                                                                                                     
 #  EXAMPLE USAGE:                                                                                                    
                                                                                                                    
-#  perl Haplotyper.pl --genotype_parents --polyploid --longrange -vcf snps.vcf -b gen1.sorted.bam\                   
-#           -b gen2.sorted.bam -r 150 -o example                                                                     
+#  perl Haplotyper.pl --genotype_parents --polyploid --longrange -vcf snps.vcf -b gen1.sorted.bam -b gen2.sorted.bam -r 150 -o example                                                                     
                                                                                                                    
 #  THEN TO GENOTYPE A POPULATION WITH IDENTIFIED HAPLOTYPES:                                                         
                                                                                                                    
