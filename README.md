@@ -59,5 +59,8 @@ Type the following command in the shell and HaploSWEEP should execute:
 Module commands for stand alone usage:
 
 ./HAPLOSWEEP vcffile "gen1.bam gen2.bam" num_bams read_length out > out.hap
+
 ./HAPLOSWEEP_LONGRANGE vcffile "gen1.bam gen2.bam" num_bams read_length out > out.hap
+
+./HAPLOSWEEP_DIPLOID vcffile "gen1.bam gen2.bam" num_bams read_length out max_haplotype_length > out.hap
 
