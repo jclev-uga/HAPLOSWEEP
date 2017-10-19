@@ -1,4 +1,8 @@
-# HAPLOSWEEP
+
+#HAPLOSWEEP v1.0
+#By Josh Clevenger, PhD
+#Project funded by a USDA-NIFA postdoctoral fellowship grant
+
 Haplotype-based genotyping designed for polyploid species
 
 Three C++ programs that can be run individually or within a perl pipeline.
@@ -11,9 +15,6 @@ Make sure the bamtools libraries libbamtools.so and libbamtools.so.2.4.1 are in 
 
 If the above is true then running the pipeline is simple.
 
-HaploSWEEP v1.0
-By Josh Clevenger, PhD
-Project funded by a USDA-NIFA postdoctoral fellowship grant
 
 
                                                                                                                   
