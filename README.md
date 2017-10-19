@@ -20,7 +20,7 @@ Project funded by a USDA-NIFA postdoctoral fellowship grant
 #  PIPELINE PATH:                                                                                                    
 #  --genotype_parents   Set to identify new markers between two parents                                              
 #    --> REQUIRED:                                                                                                   
-#       -vcf <string>   vcf file from SNP caller/or tab delimeted file of chromosome name\tpossible variant position 
+#       -vcf <string>   vcf file from SNP caller or tab delimeted file of chromosome name possible variant position 
 #       -b <string>     sorted/indexed bam file of alignments                                                        
 #       -r <int>        read length (default 100bp)                                                                  
 #       --single/or     only calls haplotypes from within individual reads                                           
