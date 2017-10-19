@@ -56,7 +56,7 @@ Type the following command in the shell and HaploSWEEP should execute:
 
         export LD_LIBRARY_PATH=\${LD_LIBRARY_PATH}:./
         
-Module commands for stand alone usage:
+# Module commands for stand alone usage:
 
 ./HAPLOSWEEP vcffile "gen1.bam gen2.bam" num_bams read_length out > out.hap
 
