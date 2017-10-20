@@ -11,7 +11,7 @@ Uses Bamtools API to process aligned reads in bam files so in order to run the p
 
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:./
 
-Make sure the bamtools libraries libbamtools.so and libbamtools.so.2.4.1 are in the working directory as well.
+Make sure the bamtools libraries libbamtools.so and libbamtools.so.2.4.1 are in the working directory as well.  Or if you can add the libbamtools.so files to the directory /usr/lib/
 
 Binary files are included, but C++ code can be compiled by user if bamtools API is installed.  C++ standard 11 was used.
 .cpp files can be compiled with the following command:
